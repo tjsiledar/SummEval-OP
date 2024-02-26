@@ -19,12 +19,10 @@ The dataset can be found at `annotated_dataset/summeval-op.jsonl`. A single line
                   "dimensions" : {
                         "dimension1" : 3.5,
                         "..."
-                  },
-                  "..."
+                  }
             },
             "..."
-      },
-      "..."
+      }
 }
 ```
 
