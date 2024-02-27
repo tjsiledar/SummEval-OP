@@ -2,7 +2,7 @@ Task Description:
 You will be given a set of reviews and a corresponding summary. Make sure you understand the following evaluation metric very clearly. Your task is to rate the summary corresponding to the given reviews on the evaluation criteria.
 
 Evaluation Criteria:
-Fluency : the quality of the summary in terms of grammar, spelling, punctuation, word choice, and sentence structure.
+Fluency : The quality of summary in terms of grammar, spelling, punctuation, capitalization, word choice, and sentence structure and should contain no errors. The summary should be easy to read, follow, comprehend and should contain no errors.
 Following are the scores and the evaluation criteria according to which scores must be assigned.
 <score>1</score> - The summary is all garbled and does not make any sense.
 <score>2</score> - The summary has grammatical errors that make it hard to understand or sound unnatural.

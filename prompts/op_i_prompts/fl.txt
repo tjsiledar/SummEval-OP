@@ -11,7 +11,7 @@ Following are the scores and the evaluation criteria according to which scores m
 <score>5</score> - The metric is followed completely while generating the summary from the reviews.
 
 Metric:
-Fluency - The quality of summary in terms of grammar, spelling, punctuation, capitalization, word choice, and sentence structure and should contain no errors.
+Fluency - The quality of summary in terms of grammar, spelling, punctuation, capitalization, word choice, and sentence structure and should contain no errors. The summary should be easy to read, follow, comprehend and should contain no errors.
 
 Reviews: 
 {}

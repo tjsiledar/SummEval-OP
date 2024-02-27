@@ -2,7 +2,7 @@ Task Description:
 You will be given a set of reviews and a corresponding summary. Make sure you understand the following evaluation metric very clearly. Your task is to rate the summary corresponding to the given reviews on the evaluation criteria.
 
 Evaluation Criteria:
-Relevance - The summary should not contain opinions that are either not consensus or important. The summary should include only important opinions from the reviews. Summaries should be penalized if they contain redundancies and excess/unimportant information/details.
+Relevance - Selection of important opinions from the reviews. The summary should include only important opinions from the reviews. Summaries should not contain redundancies and excess information.
 Following are the scores and the evaluation criteria according to which scores must be assigned.
 <score>1</score> - The summary misses all the important opinions majorly discussed in the reviews
 <score>2</score> - The summary misses most of the important opinions majorly discussed in the reviews or mostly has redundant/excess/unimportant details
