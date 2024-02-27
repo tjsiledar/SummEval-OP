@@ -1,0 +1,31 @@
+Task Description:
+You will be given a set of reviews. You will then be given one summary written for the set of reviews. Your task is to rate the summary on one metric. Make sure you understand the following evaluation metric very clearly. Your task is to rate the summary corresponding to the given reviews on the evaluation criteria.
+
+Evaluation Criteria:
+Majority sentiment: Sentiment of majority of the users corresponding to an aspect - positive, neutral, negative
+Sentiment Consistency - All the aspects being discussed in the summary should accurately reflect the consensus sentiment of the corresponding aspects from the reviews. Summaries should be penalized if they do not cover accurately the sentiment regarding any aspect within the summary.
+Following are the scores and the evaluation criteria according to which scores must be assigned.
+<score>1</score> - None of the aspects present in summary have the same majority sentiment as in reviews
+<score>2</score> - Very few of the aspects present in summary have the same majority sentiment as in reviews
+<score>3</score> - Only around half of the aspects present in summary have the same majority sentiment as in reviews
+<score>4</score> - Most of the aspects present in summary have the same majority sentiment as in reviews
+<score>5</score> - All aspects present in summary have the same majority sentiment as in reviews
+
+Reviews: 
+{}
+
+Summary: 
+{}
+
+Instructions:
+Let's go step-by-step. Follow the following steps strictly while giving the response:
+1. Identify the aspects and their sentiment present in the summary and list them with numbering
+2. For the list of aspects identified, identify the majority sentiment from the reviews and list them with numbering
+3. Next identify how many aspect and sentiment match between reviews and summary from above and list them with numbering
+4. Finally use the previous information to output only a single score within <score></score> tags only using the evaluation criteria.
+
+Note: Strictly give the score within <score></score> tags only e.g Score- <score>5</score>.
+
+First give a detailed explanation only on sentiment preservation of the summary and then finally give a single score following the format: Score- <score>5</score>
+
+Response: 

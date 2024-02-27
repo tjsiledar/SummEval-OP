@@ -1,0 +1,28 @@
+Task Description:
+You will be given a set of reviews and a corresponding summary. Make sure you understand the following evaluation metric very clearly. Your task is to rate the summary corresponding to the given reviews on the evaluation criteria.
+
+Evaluation Criteria:
+Faithfulness - Every piece of information mentioned in the summary should verifiable/supported/present/inferred from the reviews only. Summaries should be penalized if any piece of information is not verifiable/supported/present/inferred from the reviews or even if the summary over generalizes something.
+Following are the scores and the evaluation criteria according to which scores must be assigned.
+<score>1</score> - The summary is for a different product and is irrelevant/unrelated to the given set of reviews
+<score>2</score> - The summary contains very few facts actually verifiable/supported/present/inferred from the reviews and contains a lot of hallucinated facts
+<score>3</score> - The summary contains more than one piece of information that is not verifiable/present/inferred from the reviews
+<score>4</score> - The summary contains only one piece of information that is not verifiable/supported/present/inferred from the reviews
+<score>5</score> - Every piece of information present in the summary is verifiable/supported/present/inferred from the reviews
+
+Reviews: 
+{}
+
+Summary: 
+{}
+
+Instructions:
+Let's go step-by-step. Follow the following steps strictly while giving the response:
+1. Go through the summary and list down all pieces of information in the summary that is not verifiable/supported/present/inferred from the reviews. Give a clear step-by-step explanation of what you found.
+2. Finally use the evaluation criteria to output only a single score within <score></score> tags.
+
+Note: Strictly give the score within <score></score> tags only e.g Score- <score>5</score>.
+
+First give a detailed explanation only on faithfulness and then finally give a single score following the format: Score- <score>5</score>
+
+Response: 

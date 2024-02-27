@@ -1,0 +1,29 @@
+Task Description:
+You will be given a set of reviews and a corresponding summary. Make sure you understand the following evaluation metric very clearly. Your task is to rate the summary corresponding to the given reviews on the evaluation criteria.
+
+Evaluation Criteria:
+Fluency : the quality of the summary in terms of grammar, spelling, punctuation, word choice, and sentence structure.
+Following are the scores and the evaluation criteria according to which scores must be assigned.
+<score>1</score> - The summary is all garbled and does not make any sense.
+<score>2</score> - The summary has grammatical errors that make it hard to understand or sound unnatural.
+<score>3</score> - The summary has errors that affect the clarity or smoothness of the text, but the main points are still comprehensible.
+<score>4</score> - The summary has very few errors, but it is easy to read, follow and comprehend.
+<score>5</score> - The summary is extremely fluent and is easy to read, follow and comprehend.
+
+Reviews: 
+{}
+
+Summary: 
+{}
+
+Instructions:
+Let's go step-by-step. Follow the following steps strictly while giving the response:
+1. Identify the sentences presented in the summary and list them with numbering.
+2. Go through each sentence and list down if there are any fluency problems.
+3. Finally use the evaluation criteria to output only a single score within <score></score> tags.
+
+Note: Strictly give the score within <score></score> tags only e.g Score- <score>5</score>.
+
+First give a detailed explanation only on fluency of the summary and then finally give a single score following the format: Score- <score>5</score>
+
+Response: 

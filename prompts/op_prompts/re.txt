@@ -1,0 +1,31 @@
+Task Description:
+You will be given a set of reviews and a corresponding summary. Make sure you understand the following evaluation metric very clearly. Your task is to rate the summary corresponding to the given reviews on the evaluation criteria.
+
+Evaluation Criteria:
+Relevance - The summary should not contain opinions that are either not consensus or important. The summary should include only important opinions from the reviews. Summaries should be penalized if they contain redundancies and excess/unimportant information/details.
+Following are the scores and the evaluation criteria according to which scores must be assigned.
+<score>1</score> - The summary misses all the important opinions majorly discussed in the reviews
+<score>2</score> - The summary misses most of the important opinions majorly discussed in the reviews or mostly has redundant/excess/unimportant details
+<score>3</score> - The summary covers around half of the important opinions majorly discussed in the reviews or contains redundant/excess/unimportant details
+<score>4</score> - The summary covers most of the important opinions majorly discussed in the reviews and has very less amount of redundant/excess/unimportant details
+<score>5</score> - The summary covers all the important opinions majorly discussed in the reviews and has no redundant/excess/unimportant details
+
+Reviews: 
+{}
+
+Summary: 
+{}
+
+Instructions:
+Let's go step-by-step. Follow the following steps strictly while giving the response:
+1. Identify all the important opinions majorly discussed in the reviews and list them with numbering
+2. Identify the important opinions present in the summary and list them with numbering
+3. Next identify how many important opinions are present in both summary and reviews and list them with numbering
+3. Next idenify the how many redundant/excess/unimportant details does the summary have and list them with numbering
+4. Finally use the evaluation criteria to output only a single score within <score></score> tags.
+
+Note: Strictly give the score within <score></score> tags only e.g Score- <score>5</score>.
+
+First give a detailed explanation only on relevance and then finally give a single score following the format: Score- <score>5</score>
+
+Response: 

@@ -1,0 +1,33 @@
+Task Description:
+You will be given a set of reviews. You will then be given one summary written for the set of reviews. Your task is to rate the summary on one metric. Make sure you understand the following evaluation metric very clearly. Your task is to rate the summary corresponding to the given reviews on the evaluation criteria.
+
+Evaluation Criteria:
+Important aspects - Specific aspects which are being majorly discussed in different reviews.
+Aspect Coverage - The summary should cover all the aspects that are majorly being discussed in the reviews. Summaries should be penalized if they miss out on an aspect that was majorly being discussed in the reviews and awarded if it covers all.
+Following are the scores and the evaluation criteria according to which scores must be assigned.
+<score>1</score> - Summary does not cover any important aspects present in the reviews
+<score>2</score> - Summary does not cover most of the important aspects present in the reviews.
+<score>3</score> - Summary covers around half of the important aspects present in the reviews.
+<score>4</score> - Summary covers most of the important aspects present in reviews.
+<score>5</score> - Summary covers all the important aspects discussed in reviews. 
+
+Reviews: 
+{}
+
+Summary: 
+{}
+
+Instructions:
+Let's go step-by-step. Follow the following steps strictly while giving the response:
+1. Identify the important aspects present in the reviews and list them with numbering
+2. Identify the important aspects present in the summary and list them with numbering
+3. Identify the important aspects covered by the summary that are present in the reviews and list them with numbering
+4. Calculate the total number of important aspects covered by the summary that are present in the reviews 
+5. Calculate the total number of important aspects present in the reviews
+6. Finally use the evaluation criteria to output only a single score within <score></score> tags.
+
+Note: Strictly give the score within <score></score> tags only e.g Score- <score>5</score>.
+
+First give a detailed explanation of how much is the coverage and then finally give a single score following the format: Score- <score>5</score>
+
+Response: 
