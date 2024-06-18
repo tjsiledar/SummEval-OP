@@ -1,0 +1,11 @@
+{
+    "description":"Op-I-Prompts using Mistral",
+    "gpu_device":"1",
+    "max_tokens":1000,
+    "no_of_samples":100,
+    "temperature":0.7,
+    "data_path":"../data/opsummeval-g.csv",
+    "prompt_dir":"../prompts/op_i_prompts/",
+    "model_name":"../models/Mistral-7B-Instruct-v0.2/",
+    "output_path":"../output/"
+}

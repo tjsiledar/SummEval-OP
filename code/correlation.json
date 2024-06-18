@@ -1,0 +1,12 @@
+{
+    "save":"no",
+    "plot":"no",
+    "batch":10,
+    "strategy":"mean",
+    "dir_path":"../output/20240314084907/",
+    "data_path":"../data/opsummeval-g.csv",
+    "save_path":"../correlation/",
+    "N":100,
+    "want_list":"no",
+    "type":"standard"
+}
